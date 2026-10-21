@@ -5,9 +5,6 @@ import java.nio.charset.StandardCharsets;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
-        System.out.println("This is the main branch!");
-        System.out.println("This is a feature branch!");
-        System.out.println("Update in master branch!");
-        System.out.println("Fixing a bug!");
+        System.out.println("2 + 3 = " + Calculator.add(2, 3));
     }
 }
